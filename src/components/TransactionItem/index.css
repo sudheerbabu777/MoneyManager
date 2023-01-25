@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.TransactionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 568px) {
+  .TransactionItem {
+    flex-direction: column;
+  }
+}
+
+.money-details {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  border-radius: 15px;
+  justify-content: center;
+}
+@media screen and (max-width: 568px) {
+  .money-details {
+    margin-bottom: 20px;
+  }
+}
+
+.balance {
+  border: 1.5px solid #84cc16;
+  background-color: #ecfccb;
+}
+
+.income {
+  border: 1.5px solid #06b6d4;
+  background-color: #cffafe;
+}
+
+.expenses {
+  border: 1.5px solid #7c3aed;
+  background-color: #ede9fe;
+}
+
+.balance-cash {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #7e858e;
+  margin: 15px;
+}
+
+.amount {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+  margin: 15px;
+}
+
+.balance-image {
+  width: 20%;
+  margin: 15px;
+}
